@@ -9,3 +9,6 @@
   --beige: #F0E7DA;
 }
 
+* {
+  background-color: var(--beige)
+}
