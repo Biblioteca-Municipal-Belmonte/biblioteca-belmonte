@@ -60,6 +60,6 @@ header a:hover {
 }
 /*FIM DO SLIDESHOW ---------------*/
 
-div {
+.sobre, .cultura-pop {
   margin-bottom: 30px;
 }
