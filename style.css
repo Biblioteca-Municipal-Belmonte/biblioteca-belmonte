@@ -1,0 +1,65 @@
+header a:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.title h1 {
+  margin-right: 10px;
+}
+/*SLIDESHOW ---------------*/
+.slideshow {
+  position: relative;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 24px 48px --12px hsla(0, 0%, 0%, 0.25); /*offset de x, offset de y, borrão, o espalhamento e a cor*/
+}
+
+.slider::-webkit-scrollbar {
+  display: none; 
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.nav-sliders {
+  display: flex;
+  column-gap: 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%); /*move a navegação pra esquerda, o valor é a metade de seu tamanho*/
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0); /*tira o fundo dos anchor*/
+}
+
+.nav-sliders a {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ffffff; 
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.nav-sliders a:hover {
+  opacity: 1;
+}
+/*FIM DO SLIDESHOW ---------------*/
+
+div {
+  margin-bottom: 30px;
+}
