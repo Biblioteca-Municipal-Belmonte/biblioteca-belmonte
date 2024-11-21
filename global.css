@@ -1,38 +1,65 @@
 
-.container h1, h2, span {
-  margin-left: 10px;
-  text-justify: auto;
-  font-family: "Inknut Antiqua", serif;
-}
-
-.container span {
-  display: inline-block;
-}
-
 * {
   margin: 0px;
   padding: 0px;
   background-color: var(--beige);
+  font-family: "Roboto", sans-serif;
 }
 
-/*CORES*/
-:root {
-  --black: #000;
-  --beige: #F0E7DA;
-  --dark-brown: #110e09
+body section {
+  margin-right: 30px;
+  margin-left: 10px;
 }
 
 /*TEMPORARIO HEADER*/
 header {
   background-color: var(--dark-brown);
   padding: 15px 0px 20px 0px;
+  max-height: 100px;
+}
+
+header img {
+  background-color: #00000000;
 }
 
 header a {
   background-color: #00000000;
   margin-right: 20px;
   margin-left: 20px;
-  color: var(--beige);
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 18px;
   text-decoration: none;
+}
+
+header a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container h1, h2 {
+  background-color: var(--light-brown);
+  font-size: 24px;
+  font-weight: 700;  
+  font-style: italic;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.container h1, h2, p {
+  margin-left: 10px;
+  text-align: justify;
+  text-justify: auto;
+  padding-left: 10px;
+
+}
+
+
+
+/*CORES*/
+:root {
+  --royal-blue: #2A3663;
+  --beige: #FAF6E3;
+  --light-green: #D8DBBD;
+  --light-brown: #B59F78;
+  --dark-brown: #3B3030;
 }
