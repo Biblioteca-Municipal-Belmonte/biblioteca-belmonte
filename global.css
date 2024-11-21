@@ -1,11 +1,38 @@
+
+.container h1, h2, span {
+  margin-left: 10px;
+  text-justify: auto;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.container span {
+  display: inline-block;
+}
+
 * {
   margin: 0px;
   padding: 0px;
+  background-color: var(--beige);
 }
 
 /*CORES*/
 :root {
   --black: #000;
   --beige: #F0E7DA;
+  --dark-brown: #110e09
 }
 
+/*TEMPORARIO HEADER*/
+header {
+  background-color: var(--dark-brown);
+  padding: 15px 0px 20px 0px;
+}
+
+header a {
+  background-color: #00000000;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: var(--beige);
+  font-size: 20px;
+  text-decoration: none;
+}
