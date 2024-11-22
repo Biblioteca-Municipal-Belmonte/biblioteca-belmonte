@@ -62,6 +62,10 @@
   display: flex;
 }
 
-.sobre-e-gif, .cultura-pop {
+.sobre-e-gif{
   margin-bottom: 30px;
+}
+
+.cultura-pop {
+  margin-bottom: 60px;
 }
